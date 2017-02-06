@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>InClass7</title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Personal Information</legend>
+					<table>
+						<tr> 
+							<td> Username:</td>
+							<td><input type="text" name="username" required /></td>
+						</tr>
+						<tr> 
+							<td> Password:</td>
+							<td><input type="password" name="password" required /></td>
+						</tr>
+						<tr> 
+							<td> State:</td>
+							<td><input type="text" name="state" pattern="[A-Za-z]{2}" size="2" required /></td>
+						</tr>
+						<tr> 
+							<td> Email:</td>
+							<td><input type="email" name="email" required /></td>
+						</tr>
+						<tr> 
+							<td> Url:</td>
+							<td><input type="url" name="url" required /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" name="send" value="Submit"/></td>
+						</tr>
+					</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
