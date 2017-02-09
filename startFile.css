@@ -1,0 +1,79 @@
+/* Simple Selections*/
+h1{
+	color: rgb(0,200,75);
+	font:43pt "Comic Sans MS";
+	
+}
+
+h2{
+	font:26pt Impact;
+
+}
+
+body{
+	background-image: url("../images/bg.jpg");
+	
+}
+th p{
+	color:orange;
+}
+
+
+/* Music Links*/
+.music1, .music2{
+	font-size:36pt;
+	color:purple;
+	
+}
+.music1 a:hover{
+	font-size:1pt;
+	margin-top: 7000px;
+	margin-left: 500px;
+	padding: 200px;
+	background-image: url("../images/bg2.jpg");
+	background-repeat:no-repeat;
+	color:black;
+}
+.music2 a:hover{
+	color:green;
+	
+}
+
+
+/*Table1*/
+#Table1 {
+	border: thick solid blue;
+	width:800px;
+	background-color:orange;
+	margin-top:20px;
+	margin-left:35px;
+}
+#Table1 th, #Table1 td {
+	border: 7px dashed red;
+	font-style:italic;
+	font-weight:lighter;
+	padding-left:185px;
+}
+
+
+/*Table2*/
+#Table2 {
+	border: thin solid blue;
+	margin:50px;
+	background-color:white;
+	
+}
+#Table2 th, #Table2 td {
+	border: thin dashed red;
+	font: bolder 8pt arial;
+	
+}
+
+/*Southern Illinois*/
+.siu{
+	margin-left:300;
+	color:#660000;
+	font: bold 22pt helvetica; 
+	
+	
+}
