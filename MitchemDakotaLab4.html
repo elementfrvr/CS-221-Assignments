@@ -1,0 +1,156 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Lab 4</title>
+	</head>
+	<body>
+		<h2>Travel Expense Report</h2>
+		<hr/>
+		<form>
+		<!--Table 1-->
+			<h3>Traveller Information</h3>
+			<table>
+				<tr>
+					<td>Employee ID:</td>
+					<td><input type="text" name="employee ID" size="10" required />
+					<td>Email:</td>
+					<td><input type="text" name="email" required />
+				</tr>
+				<tr>
+					<td>Last Name:</td>
+					<td><input type="text" name="lastName" required />
+					<td>First Name:</td>
+					<td><input type="text" name="firstName" required />
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td colspan="3"><input type="text" name="address" size="58" required />
+				</tr>
+				<tr>
+					<td>City:</td>
+					<td><input type="text" name="city" required />
+					<td>State:</td>
+					<td><input type="text" name="state" required />
+				</tr>
+				<tr>
+					<td>Zip:</td>
+					<td><input type="text" name="zip" size="5" required />
+					<td>Phone:</td>
+					<td><input type="text" name="phone" required />
+				</tr>
+			</table>
+			
+			<!--Table 2-->
+			<h3>Trip Information</h3>
+			<table>
+				<tr>
+					<th colspan="2">Dates of Travel</th>
+					<th colspan="2">Dates of Meeting</th>
+				</tr>
+				<tr>
+					<td>From:</td>
+					<td><input type="text" name="fromTravel" required />
+					<td>From:</td>
+					<td><input type="text" name="fromMeeting" required />
+				</tr>
+				<tr>
+					<td>To:</td>
+					<td><input type="text" name="toTravel" required />
+					<td>To:</td>
+					<td><input type="text" name="toMeeting" required />
+				</tr>
+				<tr>
+					<td>Purpose:</td>
+					<td colspan="3">
+						<select size ="1">
+							<option value="1">Professional Meeting</option>
+							<option value="2">Presentation</option>
+							<option value="3">Teaching Off-Campus</option>
+							<option value="4">Paper/Poster</option>
+							<option value="5">Artistic Exhibition or Performance</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Level:</td>
+					<td colspan="3">
+						<input type="radio" name="level" value="regional" />Regional
+						<input type="radio" name="level" value="state" />State
+						<input type="radio" name="level" value="national" />National
+						<input type="radio" name="level" value="international" />International
+					</td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td colspan="3"><textarea name= "description" rows="5" cols="55"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2">Was a personal vehicle utilized?</td>
+					<td colspan="2">
+						<input type="radio" name="personal" value="yes" />Yes
+						<input type="radio" name="personal" value="no" />No
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Was a university vehicle utilized?</td>
+					<td colspan="2">
+						<input type="radio" name="university" value="yes" />Yes
+						<input type="radio" name="university" value="no" />No
+					</td>
+				</tr>
+			</table>
+			
+			<!--Table 3-->
+			<h3>Traveller Information</h3>
+			<table>
+				<tr>
+					<th>Date</th>
+					<th>Departed From</th>
+					<th>Arrived at</th>
+					<th>Auto Mileage</th>
+					<th>Meals</th>
+				</tr>
+				<tr>
+					<td><input type="text" name="date1" size="10" required />
+					<td><input type="text" name="depart1" required />
+					<td><input type="text" name="arrive1" required />
+					<td><input type="text" name="mileage1" size="8" required />
+					<td>
+						<input type="checkbox" name="meals1" value="breakfast" />Breakfast
+						<input type="checkbox" name="meals1" value="lunch" />Lunch
+						<input type="checkbox" name="meals1" value="dinner" />Dinner
+					</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="date2" size="10" />
+					<td><input type="text" name="depart2" />
+					<td><input type="text" name="arrive2" />
+					<td><input type="text" name="mileage2" size="8" />
+					<td>
+						<input type="checkbox" name="meals2" value="breakfast" />Breakfast
+						<input type="checkbox" name="meals2" value="lunch" />Lunch
+						<input type="checkbox" name="meals2" value="dinner" />Dinner
+					</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="date3" size="10"/>
+					<td><input type="text" name="depart3" />
+					<td><input type="text" name="arrive3" />
+					<td><input type="text" name="mileage3" size="8" />
+					<td>
+						<input type="checkbox" name="meals3" value="breakfast" />Breakfast
+						<input type="checkbox" name="meals3" value="lunch" />Lunch
+						<input type="checkbox" name="meals3" value="dinner" />Dinner
+					</td>
+				</tr>
+			</table>
+			<hr/>
+			<p><input type="submit" name="send" value="Submit" />
+			<input type="reset" name= "clear" value="Clear Form" />
+			</p>
+			
+			
+		</form>
+	</body>
+</html>
